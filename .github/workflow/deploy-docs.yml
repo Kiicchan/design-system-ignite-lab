@@ -2,8 +2,8 @@ name: Deploy Storybook
 
 on:
   push:
-    branchers:
-      - main
+    branches:
+      - master
 
 jobs:
   build-and-deploy:
